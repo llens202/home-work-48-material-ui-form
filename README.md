@@ -1,16 +1,56 @@
-# React + Vite
+# React Hook Form + Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Опис проєкту
 
-Currently, two official plugins are available:
+Навчальний React-проєкт для практики роботи з **Form** та **Material UI (MUI)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+У проєкті реалізована форма реєстрації з полями:
 
-## React Compiler
+- Name
+- Email
+- Password
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Для роботи з формою та валідації використовується **React Hook Form**.
 
-## Expanding the ESLint configuration
+Для створення інтерфейсу використовуються компоненти **Material UI**:
+- TextField
+- Button
+- Typography
+- Container
+- Stack
+- Alert
+- CircularProgress
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Також реалізовано відображення помилок валідації, індикатор завантаження та повідомлення про успішну реєстрацію.
+
+## Встановлення та запуск
+
+1. Клонувати репозиторій:
+
+```bash
+git clone https://github.com/llens202/home-work-48-material-ui-form
+```
+
+2. Перейти в папку проєкту:
+
+```bash
+cd my-react-app
+```
+
+3. Встановити залежності:
+
+```bash
+npm install
+```
+
+4. Запустити проєкт:
+
+```bash
+npm run dev
+```
+
+5. Відкрити адресу, яку покаже Vite у терміналі.
+
+## Демо-версія
+
+[Переглянути демо](https://home-work-48-material-ui-form.vercel.app/)
