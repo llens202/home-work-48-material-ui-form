@@ -1,4 +1,4 @@
-import {Alert, Button, CircularProgress, Container, Stack, TextField, Typography} from '@mui/material';
+import {Alert, Button, CircularProgress, Box, Container, Stack, TextField, Typography} from '@mui/material';
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -47,13 +47,17 @@ function Form() {
         alignItems: 'center'
       }}
     >
-      <form onSubmit={handleSubmit(onSubmit)}>
-        <Stack
-          spacing={2}
-          sx={{
-            width: 400
-          }}
-        >
+     <Box
+  component="form"
+  onSubmit={handleSubmit(onSubmit)}
+  sx={{
+  width: '100%',
+  maxWidth: 400
+}}
+  
+>
+
+        <Stack spacing={2}>
           {/* Заголовок форми */}
           <Typography variant="h5">
             Реєстрація
@@ -133,7 +137,7 @@ function Form() {
             Увійти
           </Button>
         </Stack>
-      </form>
+      </Box>
     </Container>
   );
 }
