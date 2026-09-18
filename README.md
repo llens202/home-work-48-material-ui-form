@@ -1,4 +1,4 @@
-# React Hook Form + Material UI
+#Form + Material UI
 
 ## Опис проєкту
 
